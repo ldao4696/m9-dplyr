@@ -13,7 +13,7 @@ library(dplyr)
 team.data <- mutate(team.data, ratio = TOV/STL)
 
 
-# Sort the teams from lowest turnover/steal ratio to highest
+# Sort the teams from lowest turnover/steal ratio to highest%>%
 # Which team has the lowest ratio?
 sorted.ratio <- arrange(team.data, ratio)
 #Boston Celtics
